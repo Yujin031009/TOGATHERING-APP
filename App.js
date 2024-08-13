@@ -3,7 +3,7 @@ import { Platform, StyleSheet, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { WebView } from "react-native-webview";
-import { WEB_CLIENT_URL } from "./constants/url";
+import { WEB_CLIENT_URL } from "./constants/URL";
 
 const Stack = createStackNavigator();
 
